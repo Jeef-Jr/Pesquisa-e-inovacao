@@ -6,11 +6,37 @@ body{
 #navbar{
     background-color: #000407;
     color: #32b9cd;
+    border-bottom: 2px solid #32b9cd;
 }
 
 #navbar .container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;    
+    color: white;
+    height: 550px;
+}
+
+.banner p {
+    width: 280px;
+}
+
+
+.banner {
+    background-size: cover;
+    background-image: url("../../imgs/bg-jelly-fish-para_outras_pags.png");
 }
 
 .navbar {
@@ -25,4 +51,87 @@ body{
 .navbar li a {
     color: #32b9cd;
     text-decoration: none;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+.footer {
+    background-color: #32b9cd;
+    color: white;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.informativo {
+    height: 550px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    color: #ca1313  ;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px !important;
+
+}
+
+.card h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px
+}
+
+.card #form_login {
+    color: #ca1313;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#form_login{
+    color: black;
+}
+
+.active {
+    color: white !important;
+}
+
+#form_login input{
+    margin: 8px;
+    text-align: center;
+    outline: 3px solid #32b9cd;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#form_login button {
+    width: 200px;
+    padding: 10px;
+    background-color: #ca1313;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#form_login button:hover {
+    background-color: #941212;
+}
+
+.img{
+    width: 100px;
 }
