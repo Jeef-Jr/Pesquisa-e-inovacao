@@ -15,8 +15,8 @@
           <ul class="navbar">
             <li><a href="./index.html">Início</a></li>
             <li><a href="#">Simulador</a></li>
-            <li><a class="active" href="#">Login</a></li>
-            <li><a href="./cadastro.html">Cadastro</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a class="active" href="#">Cadastro</a></li>
           </ul>
         </div>
       </div>
@@ -24,11 +24,15 @@
     <div class="banner">
       <div class="container">
         <div class="card">
-          <h2>Olá, de volta!</h2>
-          <form id="form_login">
+          <h2>Seja bem-vindo!</h2>
+          <form id="form_cadastrar">
+            <label for="inputNome">Nome</label>
+            <input type="text" id="inputNome" />
             <label for="inputLogin">Login</label>
             <input type="text" id="inputLogin" />
             <label for="inputSenha">Senha</label>
+            <input type="password" id="inputSenha" />
+            <label for="inputSenha">Repetir Senha</label>
             <input type="password" id="inputSenha" />
 
             <button type="button">Entrar</button>
